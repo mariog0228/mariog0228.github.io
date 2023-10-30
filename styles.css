@@ -1,0 +1,130 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #246cea;
+}
+
+/* Estilos para el contenido */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#calculadora {
+    margin-top: 20px;
+}
+
+/* IMAGEN*/
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #2756ff;
+    display: block;
+}
+
+/* Alineación central para el pie de página */
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Edicion de imagen segun su IMC */
+#img-bajo-peso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+}
+
+#img-normal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+}
+
+#img-sobrepeso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+}
+
+#img-obeso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+}
+
+#img-obesidad-severa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+}
+
+#img-obesidad-morbida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+}

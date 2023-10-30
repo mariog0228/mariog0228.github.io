@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Índice de Masa Corporal (IMC)</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Índice de Masa Corporal (IMC)</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#que-es-imc">Importancia del IMC</a></li>
+                <li><a href="#valores-adultos">Valores para adultos</a></li>
+                <li><a href="#valores-ninos">Valores para niños y adolescentes</a></li>
+                <li><a href="#calculadora">Calculadora</a></li>
+                <li><a href="#como-se-calcula">Cómo se calcula</a></li> 
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>¿Qué es el Índice de Masa Corporal (IMC)?</h2>
+        <p>El Índice de Masa Corporal (IMC) es una medida ampliamente utilizada en el campo de la salud y la medicina
+            para evaluar si una persona tiene un peso saludable en relación con su altura. Esta herramienta es
+            fundamental para determinar si una persona se encuentra en un rango de peso que se considera adecuado y
+            saludable para su estatura.</p>
+
+        <p>Esto se interpreta en una escala que incluye categorías como bajo peso, peso normal, sobrepeso y obesidad.
+            Estas categorías ayudan a los profesionales de la salud a evaluar rápidamente el estado de peso de un
+            individuo y a identificar posibles riesgos para la salud.</p>
+
+        <p>Es esencial tener en cuenta que el IMC es una herramienta de evaluación general y no tiene en cuenta otros
+            factores importantes, como la distribución de la grasa corporal o la masa muscular. Por lo tanto, siempre se
+            debe considerar en conjunto con otros indicadores de salud y la evaluación de un profesional de la salud
+            para obtener una imagen completa de la salud y el peso corporal de una persona.</p>
+    </section>
+
+    <section id="que-es-imc">
+        <h2>Importancia del IMC</h2>
+        <p>El Índice de Masa Corporal (IMC) es una medida de gran importancia en el campo de la salud y la medicina
+            debido a su capacidad para evaluar el peso de una persona en relación con su altura. A continuación, se
+            detallan algunas de las razones por las cuales el IMC es una herramienta fundamental:</p>
+
+        <p>EVALUACION DEL PESO CORPORAL:</p>
+        <p>El IMC proporciona una evaluación rápida y sencilla del peso corporal de una persona. Al comparar el peso y
+            la altura en un solo número, ayuda a los profesionales de la salud a determinar si una persona tiene un peso
+            saludable o si se encuentra en un rango de peso que puede ser perjudicial para su salud.</p>
+
+        <p>RIESGO DE ENFERMEDADES RELACIONADAS CON EL PESO:</p>
+        <p>El IMC se utiliza para estimar el riesgo de desarrollar enfermedades relacionadas con el peso, como la
+            diabetes tipo 2, enfermedades cardiovasculares, hipertensión, apnea del sueño y ciertos tipos de cáncer. Las
+            personas con IMC en el rango de obesidad tienen un mayor riesgo de estas condiciones.</p>
+
+        <p>SEGUIMIENTO DE LA SALUD</p>
+        <p>El IMC es una herramienta valiosa para el seguimiento de la salud a lo largo del tiempo. Permite a las
+            personas y a los profesionales de la salud monitorear cambios en el peso y la salud, lo que puede llevar a
+            intervenciones tempranas para prevenir problemas de salud a largo plazo.</p>
+
+        <p>DETECCION DE DESNUTRICION</p>
+        <p>El IMC no solo se aplica a la obesidad, sino que también es útil para detectar la desnutrición. Las personas
+            con un IMC demasiado bajo pueden estar en riesgo de deficiencias nutricionales y otros problemas de salud.
+        </p>
+
+    </section>
+
+    <section id="valores-adultos">
+        <h2>Valores para Adultos</h2>
+        <p>Los valores del IMC para adultos se clasifican de la siguiente manera:</p>
+        <ul>
+            <li>Peso bajo: IMC menor a 18.5</li>
+            <li>Ideal: IMC entre 18.5 y 24.9</li>
+            <li>Sobrepeso: IMC entre 25 y 29.9</li>
+            <li>Obesidad: IMC entre 30 y 34.9</li>
+            <li>Obesidad severa: IMC entre 35 y 39.9</li>
+            <li>Obesidad morbida: IMC 40 o mayor</li>
+        </ul>
+        <img src="IMCA.jpg">
+    </section>
+
+    <section id="valores-ninos">
+        <h2>Valores para Niños y Adolescentes</h2>
+        <p>Los valores del IMC para niños y adolescentes se comparan con percentiles basados en la edad y el sexo. Para
+            calcular estos valores, se utilizan tablas de crecimiento específicas.</p>
+        <img src="IMC.jpg">
+    </section>
+
+    <section id="calculadora">
+        <h2>Calculadora de IMC</h2>
+        <div id="calculadora">
+            <label for="altura">Altura (en metros):</label>
+            <input type="number" id="altura" step="0.01">
+            <label for "peso">Peso (en kilogramos):</label>
+            <input type="number" id="peso" step="0.1">
+            <button id="calcular">Calcular IMC</button>
+            <p>Tu IMC es: <span id="resultado"></span></p>
+            <p>Estado: <span id="estado"></span></p>
+        </div>
+        <img id="img-bajo-peso" src="bajo_peso.png" alt="Bajo peso" style="display: none;">
+        <img id="img-normal" src="normal.png" alt="Normal" style="display: none;">
+        <img id="img-sobrepeso" src="sobrepeso.png" alt="Sobrepeso" style="display: none;">
+        <img id="img-obeso" src="obeso.png" alt="Obeso" style="display: none;">
+        <img id="img-obesidad-severa" src="obesidad_severa.png" alt="Obesidad severa" style="display: none;">
+        <img id="img-obesidad-morbida" src="obesidad_morbida.png" alt="Obesidad morbida" style="display: none;">
+    
+    </section>
+
+    <section id="como-se-calcula"> <!-- Nueva sección -->
+        <h2>Cómo se calcula el IMC</h2>
+        <p>El Índice de Masa Corporal (IMC) se calcula utilizando la siguiente fórmula:</p>
+        <p>IMC = Peso (kg) / (Altura (m) * Altura (m))</p>
+        <img src="calculadora.jpg">
+    </section>
+
+    <footer>
+        <p>Para mayor informacion visitar:</p>
+        <ol>
+            <li><a href="https://www.cdc.gov/healthyweight/spanish/assessing/bmi/index.html">IMC -Índice de masa
+                    corporal www.cdc.gov</a></li>
+            <li><a
+                    href="https://www.healthychildren.org/Spanish/health-issues/conditions/obesity/Paginas/body-mass-index-formula.aspx">www.healthychildren.org</a>
+            </li>
+            <li><a href="https://es.wikipedia.org/wiki/%C3%8Dndice_de_masa_corporal">Índice de masa
+                    corporal.wikipedia.org</a></li>
+        </ol>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
